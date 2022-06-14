@@ -28,7 +28,7 @@ public:
     void setEditable(bool e);
 
 
-    explicit Note(string title = " ", string content = " ", bool ed = true);
+    explicit Note(string title = "Untitled", string content = "None", bool ed = true);
     virtual ~Note();
 
 };

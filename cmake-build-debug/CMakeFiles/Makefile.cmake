@@ -65,7 +65,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/core.dir/DependInfo.cmake"
   "CMakeFiles/note_manager.dir/DependInfo.cmake"
-  "test/CMakeFiles/runGameCharacterTests.dir/DependInfo.cmake"
+  "test/CMakeFiles/runNoteManagerTests.dir/DependInfo.cmake"
   "test/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )

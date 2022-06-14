@@ -90,15 +90,6 @@ void Menu::showAll() {
     favorites.display();
 }
 
-
-
-void Menu::setEditable(Note* n, bool e) {
-    n->setEditable(e);
-}
-
-
-
-
 void Menu::printLogbook(string t){
     for(auto itr = logbook.begin(); itr != logbook.end(); itr ++){
         if(itr->collectiontitle == t){
@@ -122,13 +113,20 @@ void Menu::removeNotefromFavorites(Note *n) {
 }
 
 int Menu::getFavNumofNotes() {
-    favorites.getSize();
+    return favorites.getSize();
 }
 
 int Menu::getNumofNotes() {
     int count = 0;
     for (int i = 0; i < collections.size(); i++)
         count = count + collections[i]->getSize();
+    return count;
+}
+
+void Menu::removeCollection(Collection *c) {
+    for(int i = 0; i < collections.size(); i++)
+        if(collections[i] == c)
+            collections.erase(collections.begin()+i);
 }
 
 

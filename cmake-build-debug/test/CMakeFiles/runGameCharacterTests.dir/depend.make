@@ -29,7 +29,7 @@ test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o: \
  ../Note.h \
  ../Observer.h \
  ../test/NoteManagerFixture.cpp
-test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o: \
+test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o: \
  ../test/lib/googletest/include/gtest/gtest-death-test.h \
  ../test/lib/googletest/include/gtest/gtest-message.h \
  ../test/lib/googletest/include/gtest/gtest-param-test.h \
@@ -55,7 +55,7 @@ test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o: \
  ../Collection.h \
  ../Note.h \
  ../Observer.h \
- ../test/NoteManagerTest.cpp
+ ../test/NoteTest.cpp
 test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.o: \
  ../test/lib/googletest/include/gtest/gtest-death-test.h \
  ../test/lib/googletest/include/gtest/gtest-message.h \

@@ -51,5 +51,4 @@ Note* Note::getNote() {
 }
 
 Note::~Note() {
-
 }

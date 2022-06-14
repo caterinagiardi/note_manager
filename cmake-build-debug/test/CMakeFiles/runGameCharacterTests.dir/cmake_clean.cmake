@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o"
-  "CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o"
+  "CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o"
   "CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.o"
   "runGameCharacterTests"
   "runGameCharacterTests.pdb"

@@ -143,17 +143,17 @@ note_manager/fast:
 .PHONY : note_manager/fast
 
 #=============================================================================
-# Target rules for targets named runGameCharacterTests
+# Target rules for targets named runNoteManagerTests
 
 # Build rule for target.
-runGameCharacterTests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runGameCharacterTests
-.PHONY : runGameCharacterTests
+runNoteManagerTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runNoteManagerTests
+.PHONY : runNoteManagerTests
 
 # fast build rule for target.
-runGameCharacterTests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/build
-.PHONY : runGameCharacterTests/fast
+runNoteManagerTests/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/build
+.PHONY : runNoteManagerTests/fast
 
 #=============================================================================
 # Target rules for targets named gtest_main
@@ -289,7 +289,7 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... note_manager"
-	@echo "... runGameCharacterTests"
+	@echo "... runNoteManagerTests"
 	@echo "... Collection.o"
 	@echo "... Collection.i"
 	@echo "... Collection.s"

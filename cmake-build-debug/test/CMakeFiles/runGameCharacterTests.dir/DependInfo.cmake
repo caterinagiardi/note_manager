@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerFixture.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerTest.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o"
+  "/Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o"
   "/Users/caterinagiardi/Downloads/note_manager/test/runAllTests.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

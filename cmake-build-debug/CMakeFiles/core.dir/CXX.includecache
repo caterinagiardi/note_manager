@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/caterinagiardi/Downloads/note_manager/Collection.cpp
+iostream
+-
+utility
+-
+Collection.h
+/Users/caterinagiardi/Downloads/note_manager/Collection.h
+
 /Users/caterinagiardi/Downloads/note_manager/Collection.h
 list
 -
@@ -29,6 +37,14 @@ vector
 -
 Collection.h
 /Users/caterinagiardi/Downloads/note_manager/Collection.h
+
+/Users/caterinagiardi/Downloads/note_manager/Note.cpp
+iostream
+-
+utility
+-
+Note.h
+/Users/caterinagiardi/Downloads/note_manager/Note.h
 
 /Users/caterinagiardi/Downloads/note_manager/Note.h
 string

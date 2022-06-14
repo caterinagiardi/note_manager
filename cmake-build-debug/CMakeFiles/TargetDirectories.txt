@@ -4,7 +4,7 @@
 /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles/note_manager.dir
 /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
 /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/edit_cache.dir
-/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runGameCharacterTests.dir
+/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir
 /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
 /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
 /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir

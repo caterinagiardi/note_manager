@@ -117,25 +117,73 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/runGameCharacterTests.dir/rule:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/runGameCharacterTests.dir/rule
-.PHONY : test/CMakeFiles/runGameCharacterTests.dir/rule
+test/CMakeFiles/runNoteManagerTests.dir/rule:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/runNoteManagerTests.dir/rule
+.PHONY : test/CMakeFiles/runNoteManagerTests.dir/rule
 
 # Convenience name for target.
-runGameCharacterTests: test/CMakeFiles/runGameCharacterTests.dir/rule
-.PHONY : runGameCharacterTests
+runNoteManagerTests: test/CMakeFiles/runNoteManagerTests.dir/rule
+.PHONY : runNoteManagerTests
 
 # fast build rule for target.
-runGameCharacterTests/fast:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/build
-.PHONY : runGameCharacterTests/fast
+runNoteManagerTests/fast:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/build
+.PHONY : runNoteManagerTests/fast
+
+CollectionTest.o: CollectionTest.cpp.o
+.PHONY : CollectionTest.o
+
+# target to build an object file
+CollectionTest.cpp.o:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/CollectionTest.cpp.o
+.PHONY : CollectionTest.cpp.o
+
+CollectionTest.i: CollectionTest.cpp.i
+.PHONY : CollectionTest.i
+
+# target to preprocess a source file
+CollectionTest.cpp.i:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/CollectionTest.cpp.i
+.PHONY : CollectionTest.cpp.i
+
+CollectionTest.s: CollectionTest.cpp.s
+.PHONY : CollectionTest.s
+
+# target to generate assembly for a file
+CollectionTest.cpp.s:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/CollectionTest.cpp.s
+.PHONY : CollectionTest.cpp.s
+
+MenuTest.o: MenuTest.cpp.o
+.PHONY : MenuTest.o
+
+# target to build an object file
+MenuTest.cpp.o:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.o
+.PHONY : MenuTest.cpp.o
+
+MenuTest.i: MenuTest.cpp.i
+.PHONY : MenuTest.i
+
+# target to preprocess a source file
+MenuTest.cpp.i:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.i
+.PHONY : MenuTest.cpp.i
+
+MenuTest.s: MenuTest.cpp.s
+.PHONY : MenuTest.s
+
+# target to generate assembly for a file
+MenuTest.cpp.s:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.s
+.PHONY : MenuTest.cpp.s
 
 NoteManagerFixture.o: NoteManagerFixture.cpp.o
 .PHONY : NoteManagerFixture.o
 
 # target to build an object file
 NoteManagerFixture.cpp.o:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.o
 .PHONY : NoteManagerFixture.cpp.o
 
 NoteManagerFixture.i: NoteManagerFixture.cpp.i
@@ -143,7 +191,7 @@ NoteManagerFixture.i: NoteManagerFixture.cpp.i
 
 # target to preprocess a source file
 NoteManagerFixture.cpp.i:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.i
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.i
 .PHONY : NoteManagerFixture.cpp.i
 
 NoteManagerFixture.s: NoteManagerFixture.cpp.s
@@ -151,39 +199,39 @@ NoteManagerFixture.s: NoteManagerFixture.cpp.s
 
 # target to generate assembly for a file
 NoteManagerFixture.cpp.s:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.s
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.s
 .PHONY : NoteManagerFixture.cpp.s
 
-NoteManagerTest.o: NoteManagerTest.cpp.o
-.PHONY : NoteManagerTest.o
+NoteTest.o: NoteTest.cpp.o
+.PHONY : NoteTest.o
 
 # target to build an object file
-NoteManagerTest.cpp.o:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o
-.PHONY : NoteManagerTest.cpp.o
+NoteTest.cpp.o:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.o
+.PHONY : NoteTest.cpp.o
 
-NoteManagerTest.i: NoteManagerTest.cpp.i
-.PHONY : NoteManagerTest.i
+NoteTest.i: NoteTest.cpp.i
+.PHONY : NoteTest.i
 
 # target to preprocess a source file
-NoteManagerTest.cpp.i:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.i
-.PHONY : NoteManagerTest.cpp.i
+NoteTest.cpp.i:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.i
+.PHONY : NoteTest.cpp.i
 
-NoteManagerTest.s: NoteManagerTest.cpp.s
-.PHONY : NoteManagerTest.s
+NoteTest.s: NoteTest.cpp.s
+.PHONY : NoteTest.s
 
 # target to generate assembly for a file
-NoteManagerTest.cpp.s:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.s
-.PHONY : NoteManagerTest.cpp.s
+NoteTest.cpp.s:
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.s
+.PHONY : NoteTest.cpp.s
 
 runAllTests.o: runAllTests.cpp.o
 .PHONY : runAllTests.o
 
 # target to build an object file
 runAllTests.cpp.o:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.o
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.o
 .PHONY : runAllTests.cpp.o
 
 runAllTests.i: runAllTests.cpp.i
@@ -191,7 +239,7 @@ runAllTests.i: runAllTests.cpp.i
 
 # target to preprocess a source file
 runAllTests.cpp.i:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.i
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.i
 .PHONY : runAllTests.cpp.i
 
 runAllTests.s: runAllTests.cpp.s
@@ -199,7 +247,7 @@ runAllTests.s: runAllTests.cpp.s
 
 # target to generate assembly for a file
 runAllTests.cpp.s:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runGameCharacterTests.dir/build.make test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.s
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runNoteManagerTests.dir/build.make test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.s
 .PHONY : runAllTests.cpp.s
 
 # Help Target
@@ -210,13 +258,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... runGameCharacterTests"
+	@echo "... runNoteManagerTests"
+	@echo "... CollectionTest.o"
+	@echo "... CollectionTest.i"
+	@echo "... CollectionTest.s"
+	@echo "... MenuTest.o"
+	@echo "... MenuTest.i"
+	@echo "... MenuTest.s"
 	@echo "... NoteManagerFixture.o"
 	@echo "... NoteManagerFixture.i"
 	@echo "... NoteManagerFixture.s"
-	@echo "... NoteManagerTest.o"
-	@echo "... NoteManagerTest.i"
-	@echo "... NoteManagerTest.s"
+	@echo "... NoteTest.o"
+	@echo "... NoteTest.i"
+	@echo "... NoteTest.s"
 	@echo "... runAllTests.o"
 	@echo "... runAllTests.i"
 	@echo "... runAllTests.s"

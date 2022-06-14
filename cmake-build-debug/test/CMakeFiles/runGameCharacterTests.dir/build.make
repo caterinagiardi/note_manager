@@ -79,18 +79,18 @@ test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.s"
 	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/Downloads/note_manager/test/runAllTests.cpp -o CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.s
 
-test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o: test/CMakeFiles/runGameCharacterTests.dir/flags.make
-test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o: ../test/NoteManagerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o -c /Users/caterinagiardi/Downloads/note_manager/test/NoteManagerTest.cpp
+test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o: test/CMakeFiles/runGameCharacterTests.dir/flags.make
+test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o: ../test/NoteTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o"
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o -c /Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp
 
-test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.i"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/caterinagiardi/Downloads/note_manager/test/NoteManagerTest.cpp > CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.i
+test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.i"
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp > CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.i
 
-test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.s"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/Downloads/note_manager/test/NoteManagerTest.cpp -o CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.s
+test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.s"
+	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp -o CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.s
 
 test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o: test/CMakeFiles/runGameCharacterTests.dir/flags.make
 test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o: ../test/NoteManagerFixture.cpp
@@ -108,14 +108,14 @@ test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.s: cmake_force
 # Object files for target runGameCharacterTests
 runGameCharacterTests_OBJECTS = \
 "CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.o" \
-"CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o" \
+"CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o" \
 "CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o"
 
 # External object files for target runGameCharacterTests
 runGameCharacterTests_EXTERNAL_OBJECTS =
 
 test/runGameCharacterTests: test/CMakeFiles/runGameCharacterTests.dir/runAllTests.cpp.o
-test/runGameCharacterTests: test/CMakeFiles/runGameCharacterTests.dir/NoteManagerTest.cpp.o
+test/runGameCharacterTests: test/CMakeFiles/runGameCharacterTests.dir/NoteTest.cpp.o
 test/runGameCharacterTests: test/CMakeFiles/runGameCharacterTests.dir/NoteManagerFixture.cpp.o
 test/runGameCharacterTests: test/CMakeFiles/runGameCharacterTests.dir/build.make
 test/runGameCharacterTests: test/lib/googletest/libgtestd.a

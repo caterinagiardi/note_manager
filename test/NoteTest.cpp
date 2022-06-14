@@ -4,8 +4,8 @@
 
 TEST(Note, DefaultConstructor) {
     Note n;
-    ASSERT_EQ(" ", n.getTitle());
-    ASSERT_EQ(" ", n.getContent());
+    ASSERT_EQ("Untitled", n.getTitle());
+    ASSERT_EQ("None", n.getContent());
     ASSERT_TRUE(n.isEditable());
 }
 
@@ -25,14 +25,16 @@ TEST(Note, Editability){
     Note n;
     n.setEditable(false);
     n.setTitle("nuovo titolo");
-    ASSERT_EQ(" ", n.getTitle());
-    ASSERT_EQ(" ", n.getContent());
+    n.setContent("nuovo contenuto");
+    ASSERT_EQ("Untitled", n.getTitle());
+    ASSERT_EQ("None", n.getContent());
+    n.setEditable(true);
+    n.setTitle("nuovo titolo");
+    n.setContent("nuovo contenuto");
+    ASSERT_EQ("nuovo titolo", n.getTitle());
+    ASSERT_EQ("nuovo contenuto", n.getContent());
 }
 
-TEST(Note, GetNote) {
-    Note n;
-    Note* m = n.getNote();
-    ASSERT_EQ(m, &n);
-}
+
 
 

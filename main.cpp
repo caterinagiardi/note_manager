@@ -26,10 +26,10 @@ int main() {
     home.showCollectionList();
 
     home.addNotetoFavorites(n);
-    home.setEditable(n, false);
+    n->setEditable(false);
     n->setTitle( "titolo che non verrà memorizzato");
     n->setContent("contenuto che non verrà memorizzato");
-    home.setEditable(n, true);
+    n->setEditable(true);
     n->setTitle("titolo che verrà memorizzato");
     n->setContent("contenuto che verrà memorizzato");
 

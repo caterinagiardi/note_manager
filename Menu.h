@@ -32,10 +32,11 @@ public:
     void removeNotefromFavorites(Note* n);
     void addNotetoCollection(Note* n, string collectiontitle);
     void removeNotefromCollection(Note* n, string collectiontitle);
-    void setEditable(Note* n, bool e);
+    void removeCollection(Collection* c);
     int getNumofCollections();
     int getFavNumofNotes();
     int getNumofNotes();
+
 
 
 
@@ -45,6 +46,7 @@ public:
 
 
     void printLogbook(string t);
+
 };
 
 

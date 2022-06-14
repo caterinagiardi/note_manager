@@ -121,8 +121,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="runGameCharacterTests">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/runGameCharacterTests" prefix_auto="0" extension_auto="0"/>
+			<Target title="runNoteManagerTests">
+				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/runNoteManagerTests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -138,14 +138,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runGameCharacterTests"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runNoteManagerTests"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="runGameCharacterTests/fast">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/runGameCharacterTests" prefix_auto="0" extension_auto="0"/>
+			<Target title="runNoteManagerTests/fast">
+				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/runNoteManagerTests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -161,7 +161,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runGameCharacterTests/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runNoteManagerTests/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
@@ -284,11 +284,17 @@
 		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/main.cpp">
 			<Option target="note_manager"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerFixture.cpp">
-			<Option target="runGameCharacterTests"/>
+		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/CollectionTest.cpp">
+			<Option target="runNoteManagerTests"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerTest.cpp">
-			<Option target="runGameCharacterTests"/>
+		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/MenuTest.cpp">
+			<Option target="runNoteManagerTests"/>
+		</Unit>
+		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerFixture.cpp">
+			<Option target="runNoteManagerTests"/>
+		</Unit>
+		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp">
+			<Option target="runNoteManagerTests"/>
 		</Unit>
 		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
@@ -297,7 +303,7 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/runAllTests.cpp">
-			<Option target="runGameCharacterTests"/>
+			<Option target="runNoteManagerTests"/>
 		</Unit>
 		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
