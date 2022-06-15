@@ -32,7 +32,7 @@ public:
     void unsubscribe(Observer *o) override;
     void notify() override;
 
-    // aggiungere/eliminare/modificare/rimuovere le note
+    // aggiungere/eliminare
     void addNewNote(Note* n);
     void removeNote(Note* n);
 

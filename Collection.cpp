@@ -13,7 +13,8 @@ Collection::Collection(string title) {
 
 }
 Collection::~Collection() {
-
+    for(auto itr : notes)
+        delete itr;
 }
 
 string Collection::getTitle() const {

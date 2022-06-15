@@ -129,6 +129,11 @@ void Menu::removeCollection(Collection *c) {
             collections.erase(collections.begin()+i);
 }
 
+Menu::~Menu() {
+    for(auto itr : collections)
+        delete itr;
+}
+
 
 
 

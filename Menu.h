@@ -25,6 +25,9 @@ public:
     vector<Identifier> logbook; // tiene conto del numero di note per ogni collezione, le identifica con il titolo.
 
     Menu();
+
+    virtual ~Menu();
+
     void update(string t, int num) override;
 
     void addCollection(Collection* c);
