@@ -284,25 +284,55 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/caterinagiardi/Downloads/note_manager/Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
 list
 -
 Note.h
-/Users/caterinagiardi/Downloads/note_manager/Note.h
+/Users/caterinagiardi/note_manager/Note.h
 Observer.h
-/Users/caterinagiardi/Downloads/note_manager/Observer.h
+/Users/caterinagiardi/note_manager/Observer.h
 
-/Users/caterinagiardi/Downloads/note_manager/Note.h
+/Users/caterinagiardi/note_manager/Menu.h
+vector
+-
+Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
+
+/Users/caterinagiardi/note_manager/Note.h
 string
 -
 
-/Users/caterinagiardi/Downloads/note_manager/Observer.h
+/Users/caterinagiardi/note_manager/Observer.h
 string
 -
 
-/Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp
+/Users/caterinagiardi/note_manager/test/CollectionTest.cpp
 gtest/gtest.h
-/Users/caterinagiardi/Downloads/note_manager/test/gtest/gtest.h
+/Users/caterinagiardi/note_manager/test/gtest/gtest.h
 ../Collection.h
-/Users/caterinagiardi/Downloads/note_manager/Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
+
+/Users/caterinagiardi/note_manager/test/MenuTest.cpp
+gtest/gtest.h
+/Users/caterinagiardi/note_manager/test/gtest/gtest.h
+../Menu.h
+/Users/caterinagiardi/note_manager/Menu.h
+
+/Users/caterinagiardi/note_manager/test/NoteManagerFixture.cpp
+gtest/gtest.h
+/Users/caterinagiardi/note_manager/test/gtest/gtest.h
+../Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
+../Menu.h
+/Users/caterinagiardi/note_manager/Menu.h
+
+/Users/caterinagiardi/note_manager/test/NoteTest.cpp
+gtest/gtest.h
+/Users/caterinagiardi/note_manager/test/gtest/gtest.h
+../Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
+
+/Users/caterinagiardi/note_manager/test/runAllTests.cpp
+gtest/gtest.h
+/Users/caterinagiardi/note_manager/test/gtest/gtest.h
 

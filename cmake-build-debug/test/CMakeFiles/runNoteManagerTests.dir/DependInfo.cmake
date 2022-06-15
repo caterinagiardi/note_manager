@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/caterinagiardi/Downloads/note_manager/test/CollectionTest.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/CollectionTest.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/test/MenuTest.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerFixture.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/test/runAllTests.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.o"
+  "/Users/caterinagiardi/note_manager/test/CollectionTest.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/CollectionTest.cpp.o"
+  "/Users/caterinagiardi/note_manager/test/MenuTest.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.o"
+  "/Users/caterinagiardi/note_manager/test/NoteManagerFixture.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.o"
+  "/Users/caterinagiardi/note_manager/test/NoteTest.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.o"
+  "/Users/caterinagiardi/note_manager/test/runAllTests.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -28,9 +28,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake"
+  "/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

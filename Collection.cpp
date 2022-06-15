@@ -10,8 +10,8 @@ using namespace std;
 
 Collection::Collection(string title) {
     Collection::title = std::move(title);
-
 }
+
 Collection::~Collection() {
     for(auto itr : notes)
         delete itr;

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/caterinagiardi/Downloads/note_manager/test/lib/googletest
+# Install script for directory: /Users/caterinagiardi/note_manager/test/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

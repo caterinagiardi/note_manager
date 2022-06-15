@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core/fast">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -73,15 +73,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="note_manager">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/note_manager" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/note_manager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -94,15 +94,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 note_manager"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 note_manager"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="note_manager/fast">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/note_manager" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/note_manager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,21 +115,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 note_manager/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 note_manager/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runNoteManagerTests">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/runNoteManagerTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/test/runNoteManagerTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest"/>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/include"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -138,21 +138,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runNoteManagerTests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runNoteManagerTests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runNoteManagerTests/fast">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/runNoteManagerTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/test/runNoteManagerTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest"/>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/include"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -161,21 +161,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runNoteManagerTests/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runNoteManagerTests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest"/>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/include"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -184,21 +184,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest"/>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/include"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -207,21 +207,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/include"/>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest/include"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -230,21 +230,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/include"/>
-					<Add directory="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest/include"/>
+					<Add directory="/Users/caterinagiardi/note_manager/test/lib/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -253,68 +253,68 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Collection.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/Collection.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Collection.h">
+		<Unit filename="/Users/caterinagiardi/note_manager/Collection.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Menu.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/Menu.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Menu.h">
+		<Unit filename="/Users/caterinagiardi/note_manager/Menu.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Note.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/Note.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Note.h">
+		<Unit filename="/Users/caterinagiardi/note_manager/Note.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/Observer.h">
+		<Unit filename="/Users/caterinagiardi/note_manager/Observer.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/main.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/main.cpp">
 			<Option target="note_manager"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/CollectionTest.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/CollectionTest.cpp">
 			<Option target="runNoteManagerTests"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/MenuTest.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/MenuTest.cpp">
 			<Option target="runNoteManagerTests"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/NoteManagerFixture.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/NoteManagerFixture.cpp">
 			<Option target="runNoteManagerTests"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/NoteTest.cpp">
 			<Option target="runNoteManagerTests"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/src/gtest-all.cc">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/lib/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/src/gtest_main.cc">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/runAllTests.cpp">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/runAllTests.cpp">
 			<Option target="runNoteManagerTests"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/CMakeLists.txt">
+		<Unit filename="/Users/caterinagiardi/note_manager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/CMakeLists.txt">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/CMakeLists.txt">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/Users/caterinagiardi/note_manager/test/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
 	</Project>

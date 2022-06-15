@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/caterinagiardi/Downloads/note_manager/Collection.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles/core.dir/Collection.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/Menu.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles/core.dir/Menu.cpp.o"
-  "/Users/caterinagiardi/Downloads/note_manager/Note.cpp" "/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles/core.dir/Note.cpp.o"
+  "/Users/caterinagiardi/note_manager/Collection.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/Collection.cpp.o"
+  "/Users/caterinagiardi/note_manager/Menu.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/Menu.cpp.o"
+  "/Users/caterinagiardi/note_manager/Note.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/Note.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

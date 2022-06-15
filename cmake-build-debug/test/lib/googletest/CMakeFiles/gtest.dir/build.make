@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/caterinagiardi/Downloads/note_manager
+CMAKE_SOURCE_DIR = /Users/caterinagiardi/note_manager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/caterinagiardi/note_manager/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/lib/googletest/CMakeFiles/gtest.dir/depend.make
@@ -68,16 +68,16 @@ include test/lib/googletest/CMakeFiles/gtest.dir/flags.make
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: test/lib/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../test/lib/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/caterinagiardi/note_manager/test/lib/googletest/src/gtest-all.cc
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/caterinagiardi/note_manager/test/lib/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/Downloads/note_manager/test/lib/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/note_manager/test/lib/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -89,19 +89,19 @@ gtest_EXTERNAL_OBJECTS =
 test/lib/googletest/libgtestd.a: test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 test/lib/googletest/libgtestd.a: test/lib/googletest/CMakeFiles/gtest.dir/build.make
 test/lib/googletest/libgtestd.a: test/lib/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtestd.a"
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtestd.a"
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/lib/googletest/CMakeFiles/gtest.dir/build: test/lib/googletest/libgtestd.a
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/build
 
 test/lib/googletest/CMakeFiles/gtest.dir/clean:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/clean
 
 test/lib/googletest/CMakeFiles/gtest.dir/depend:
-	cd /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/caterinagiardi/Downloads/note_manager /Users/caterinagiardi/Downloads/note_manager/test/lib/googletest /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest /Users/caterinagiardi/Downloads/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/caterinagiardi/note_manager/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/caterinagiardi/note_manager /Users/caterinagiardi/note_manager/test/lib/googletest /Users/caterinagiardi/note_manager/cmake-build-debug /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest /Users/caterinagiardi/note_manager/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/depend
 
