@@ -21,16 +21,16 @@ int main() {
     home.addNotetoCollection(n2, "Italiano");
     home.addNotetoCollection(n3, "Italiano");
 
-    home.showCollectionList();
+    home.showAll();
 
     home.addNotetoFavorites(n);
-    n->setEditable(false);
+    home.setEditable(n, false);
     n->setTitle( "titolo che non verrà memorizzato");
     n->setContent("contenuto che non verrà memorizzato");
 
     home.showAll();
 
-    n->setEditable(true);
+    home.setEditable(n, true);
     n->setTitle("titolo che verrà memorizzato");
     n->setContent("contenuto che verrà memorizzato");
 

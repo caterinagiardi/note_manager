@@ -33,9 +33,6 @@ void CollectionViewer::printCollection(const string &CollectionTitle) {
         }
 }
 
-CollectionViewer::CollectionViewer() {
-
-}
 
 int CollectionViewer::getNumOfObservedcollection() {
     // i preferiti non li conto

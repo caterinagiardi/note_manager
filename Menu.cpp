@@ -110,6 +110,13 @@ bool Menu::editNote(std::shared_ptr<Note> note, const string &NoteTitle, const s
         return false;
 }
 
+void Menu::setEditable(std::shared_ptr<Note> note, bool editable) {
+    note->setEditable(editable);
+    for(auto c : collections)
+        c->notify();
+    favorites.notify();
+}
+
 
 
 

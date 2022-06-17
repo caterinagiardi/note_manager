@@ -19,11 +19,8 @@ private:
     vector<Identifier> logbook;
 public:
 
-    CollectionViewer();
     void printCollection(const string& CollectionTitle);
     void update(const string& CollectionTitle, int NumOfCollections, int NumOfLockedNotes) override;
-
-
 
     // restituisce il numero di collezioni che ho salvato nel logbook
     int getNumOfObservedcollection();

@@ -32,6 +32,7 @@ public:
     int getFavNumofNotes();
     int getNumofNotes();
     bool editNote(std::shared_ptr<Note> note, const string& NoteTitle, const string& NoteContent);
+    void setEditable(std::shared_ptr<Note> note, bool editable);
 
     void showCollectionList();
     void showCollectionNotes(const string& CollectionTitle);
