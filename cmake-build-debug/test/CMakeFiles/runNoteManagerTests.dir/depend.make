@@ -52,6 +52,7 @@ test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.o: \
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h \
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h \
  ../Collection.h \
+ ../CollectionViewer.h \
  ../Menu.h \
  ../Note.h \
  ../Observer.h \
@@ -80,6 +81,7 @@ test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.o: \
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h \
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h \
  ../Collection.h \
+ ../CollectionViewer.h \
  ../Menu.h \
  ../Note.h \
  ../Observer.h \

@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/caterinagiardi/note_manager/Collection.cpp
-iostream
--
-utility
--
-Collection.h
-/Users/caterinagiardi/note_manager/Collection.h
-
 /Users/caterinagiardi/note_manager/Collection.h
 list
 -
@@ -21,6 +13,12 @@ Note.h
 /Users/caterinagiardi/note_manager/Note.h
 Observer.h
 /Users/caterinagiardi/note_manager/Observer.h
+
+/Users/caterinagiardi/note_manager/CollectionViewer.h
+Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
+vector
+-
 
 /Users/caterinagiardi/note_manager/Menu.cpp
 Menu.h
@@ -37,14 +35,8 @@ vector
 -
 Collection.h
 /Users/caterinagiardi/note_manager/Collection.h
-
-/Users/caterinagiardi/note_manager/Note.cpp
-iostream
--
-utility
--
-Note.h
-/Users/caterinagiardi/note_manager/Note.h
+CollectionViewer.h
+/Users/caterinagiardi/note_manager/CollectionViewer.h
 
 /Users/caterinagiardi/note_manager/Note.h
 string

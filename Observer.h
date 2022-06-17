@@ -13,13 +13,11 @@ public:
     virtual void subscribe(Observer *o) = 0;
     virtual void unsubscribe(Observer* o) = 0;
     virtual void notify() = 0;
-    // virtual ~Subject() {};
 };
 
 class Observer{
 public:
-    virtual void update(string t, int num) = 0;
-    // virtual ~Observer() {};
+    virtual void update(const string& CollectionTitle, int NumOfCollection, int NumOfLockedNotes) = 0;
 };
 
 

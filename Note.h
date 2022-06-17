@@ -19,17 +19,16 @@ public:
     string getTitle() const;
     string getContent() const;
     bool isEditable() const;
-    Note* getNote() ;
+    Note getNote();
 
     void printNote();
 
     void setTitle(const string& name);
-    void setContent(string c);
-    void setEditable(bool e);
+    void setContent(const string& content);
+    void setEditable(bool ed);
 
 
-    explicit Note(string title = "Untitled", string content = "None", bool ed = true);
-    virtual ~Note();
+    explicit Note(string title = "Untitled", string content = " ", bool ed = true);
 
 };
 

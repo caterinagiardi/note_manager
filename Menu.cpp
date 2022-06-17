@@ -7,108 +7,74 @@
 #include <iostream>
 #include <list>
 
-void Menu::update(string t, int num) {
-    bool isPresent = false;
-    auto itr2 = logbook.begin();
-    for (; itr2 != logbook.end(); itr2++){
-        if (t == itr2->collectiontitle) {
-            itr2->numofnotes = num;
-            isPresent = true;
-        }
-    }
-    if(!isPresent) {
-        Identifier a;
-        a.numofnotes = num;
-        a.collectiontitle = t;
-        logbook.push_back(a);
-    }
-    /* if (logbook.size() < collections.size()) {
-        Identifier a;
-        a.numofnotes = 0;
-        a.collectiontitle = " ";
-        logbook.push_back(a);
-    }
-    itr2->collectiontitle = itr1->getTitle();
-    itr2->numofnotes = itr1->getNumofCollections();
-    cout << itr2->collectiontitle << " " << +itr2->numofnotes;
-    totalnotes += itr2->numofnotes;
-    itr2++;
-    */
-}
-
 
 Menu::Menu() {
-    favorites.subscribe(this);
+    favorites.subscribe(&cv);
     favorites.notify();
 }
 
 
 void Menu::showCollectionList() {
     cout << "Le collezioni sono: \n";
-    for (auto itr = collections.begin(); itr != collections.end(); itr++)
-        printLogbook((*itr)->getTitle());
-    printLogbook(favorites.getTitle());
+    for(auto c : collections){
+        cv.printCollection(c->getTitle());
+        c->display();
+
+    }
+
 }
 
-
-void Menu::showCollectionNotes(string t) {
+void Menu::showCollectionNotes(const string& CollectionTitle) {
     for (auto itr = collections.begin(); itr != collections.end(); itr++)
-        if ((*itr)->getTitle() == t)
+        if ((*itr)->getTitle() == CollectionTitle)
 
             (*itr)->display();
-    if(t == "Preferiti")
+    if(CollectionTitle == "Preferiti")
         favorites.display();
 }
 
 void Menu::addCollection(Collection* c) {
     collections.push_back(c);
-    c->subscribe(this);
+    c->subscribe(&cv);
     c->notify();
 }
 
-void Menu::addNotetoFavorites(Note* n) {
+void Menu::addNotetoFavorites(std::shared_ptr<Note> n) {
     favorites.addNewNote(n);
     cout << "\nNota aggiunta ai preferiti.\n";
 }
 
-void Menu::addNotetoCollection(Note* n, string collectiontitle) {
+void Menu::addNotetoCollection(std::shared_ptr<Note> n, const string& collectiontitle) {
     for (auto itr = collections.begin(); itr != collections.end(); itr++)
         if ((*itr)->getTitle() == collectiontitle)
             (*itr)->addNewNote(n);
 }
 
 void Menu::showAll() {
-
     for (auto itr = collections.begin(); itr != collections.end(); itr++) {
         cout << "\n";
-        printLogbook((*itr)->getTitle());
-        (*itr)->display();
-
+        for( auto c : collections){
+            cv.printCollection(c->getTitle());
+            c->display();
+        }
     }
     cout << "\n";
-    printLogbook(favorites.getTitle());
+    cv.printCollection(favorites.getTitle());
     favorites.display();
 }
 
-void Menu::printLogbook(string t){
-    for(auto itr = logbook.begin(); itr != logbook.end(); itr ++){
-        if(itr->collectiontitle == t){
-            cout << itr->collectiontitle << " (" << itr->numofnotes << ")\n";
-        }
-    }
-}
 
 int Menu::getNumofCollections() {
     return collections.size();
 }
 
-void Menu::removeNotefromCollection(Note *n, string collectiontitle) {
+void Menu::removeNotefromCollection(std::shared_ptr<Note> n, const string& collectiontitle) {
     for (auto itr = collections.begin(); itr != collections.end(); itr++)
         if ((*itr)->getTitle() == collectiontitle)
             (*itr)->removeNote(n);
 }
 
-void Menu::removeNotefromFavorites(Note *n) {
+void Menu::removeNotefromFavorites(std::shared_ptr<Note> n) {
     favorites.removeNote(n);
 }
 
@@ -124,14 +90,24 @@ int Menu::getNumofNotes() {
 }
 
 void Menu::removeCollection(Collection *c) {
-    for(int i = 0; i < collections.size(); i++)
-        if(collections[i] == c)
-            collections.erase(collections.begin()+i);
+    for (int i = 0; i < collections.size(); i++)
+        if (collections[i] == c)
+            collections.erase(collections.begin() + i);
 }
 
 Menu::~Menu() {
     for(auto itr : collections)
         delete itr;
+}
+
+bool Menu::editNote(std::shared_ptr<Note> note, const string &NoteTitle, const string &NoteContent) {
+    if(note->isEditable()){
+        note->setTitle(NoteTitle);
+        note->setContent(NoteContent);
+        return true;
+    }
+    else
+        return false;
 }
 
 

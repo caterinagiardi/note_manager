@@ -8,13 +8,9 @@
 
 #include <vector>
 #include "Collection.h"
+#include "CollectionViewer.h"
 
-struct Identifier{
-    string collectiontitle;
-    int numofnotes;
-};
-
-class Menu : public Observer {
+class Menu{
 private:
 
     vector<Collection*> collections; // collezioni di note
@@ -22,33 +18,25 @@ private:
 
 public:
 
-    vector<Identifier> logbook; // tiene conto del numero di note per ogni collezione, le identifica con il titolo.
-
+    CollectionViewer cv;
     Menu();
-
-    virtual ~Menu();
-
-    void update(string t, int num) override;
+    ~Menu();
 
     void addCollection(Collection* c);
-    void addNotetoFavorites(Note* n);
-    void removeNotefromFavorites(Note* n);
-    void addNotetoCollection(Note* n, string collectiontitle);
-    void removeNotefromCollection(Note* n, string collectiontitle);
+    void addNotetoFavorites(std::shared_ptr<Note> n);
+    void removeNotefromFavorites(std::shared_ptr<Note> n);
+    void addNotetoCollection(std::shared_ptr<Note> n, const string& collectiontitle);
+    void removeNotefromCollection(std::shared_ptr<Note> n, const string& collectiontitle);
     void removeCollection(Collection* c);
     int getNumofCollections();
     int getFavNumofNotes();
     int getNumofNotes();
-
-
-
+    bool editNote(std::shared_ptr<Note> note, const string& NoteTitle, const string& NoteContent);
 
     void showCollectionList();
-    void showCollectionNotes(string t);
+    void showCollectionNotes(const string& CollectionTitle);
     void showAll();
 
-
-    void printLogbook(string t);
 
 };
 

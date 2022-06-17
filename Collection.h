@@ -15,7 +15,7 @@ class Collection : Subject {
 private:
     list<Observer*> observers;
     string title;
-    list<Note*> notes;
+    list<std::shared_ptr<Note>> notes;
 
 public:
     // costruttore e distruttore
@@ -25,7 +25,7 @@ public:
     // getter e setter
     string getTitle() const;
     int getSize() const;
-    void setTitle(const string &t);
+    void setTitle(const string &title);
 
     // metodi observer
     void subscribe(Observer *o) override;
@@ -33,8 +33,9 @@ public:
     void notify() override;
 
     // aggiungere/eliminare
-    void addNewNote(Note* n);
-    void removeNote(Note* n);
+    void addNewNote(shared_ptr<Note> n);
+    bool removeNote(std::shared_ptr<Note> note);
+    bool searchNote(const string &NoteTitle);
 
     // mostrare le note contenute nella collezione
     void display();

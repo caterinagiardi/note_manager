@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Collection.cpp.o"
+  "CMakeFiles/core.dir/CollectionViewer.cpp.o"
   "CMakeFiles/core.dir/Menu.cpp.o"
   "CMakeFiles/core.dir/Note.cpp.o"
   "libcore.a"

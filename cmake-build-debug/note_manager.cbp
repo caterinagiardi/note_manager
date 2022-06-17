@@ -266,6 +266,12 @@
 		<Unit filename="/Users/caterinagiardi/note_manager/Collection.h">
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="/Users/caterinagiardi/note_manager/CollectionViewer.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/Users/caterinagiardi/note_manager/CollectionViewer.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/Users/caterinagiardi/note_manager/Menu.cpp">
 			<Option target="core"/>
 		</Unit>

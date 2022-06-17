@@ -24,13 +24,13 @@ void Note::setTitle(const string& name) {
     else cout << "Non puoi modificare questa nota. " ;
 }
 
-void Note::setEditable(bool e) {
-    Note::editable = e;
+void Note::setEditable(bool ed) {
+    Note::editable = ed;
 }
 
-void Note::setContent(const string c) {
+void Note::setContent(const string& content) {
     if(Note::isEditable())
-        Note::content = c;
+        Note::content = content;
     else cout << "Non puoi modificare questa nota. " ;
 }
 
@@ -46,9 +46,8 @@ Note::Note(string title, string content, bool ed) {
 }
 
 
-Note* Note::getNote() {
-    return this;
+Note Note::getNote() {
+    return *this;
 }
 
-Note::~Note() {
-}
+

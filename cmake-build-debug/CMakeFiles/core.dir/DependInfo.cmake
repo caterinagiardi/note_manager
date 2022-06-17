@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/caterinagiardi/note_manager/Collection.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/Collection.cpp.o"
+  "/Users/caterinagiardi/note_manager/CollectionViewer.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/CollectionViewer.cpp.o"
   "/Users/caterinagiardi/note_manager/Menu.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/Menu.cpp.o"
   "/Users/caterinagiardi/note_manager/Note.cpp" "/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles/core.dir/Note.cpp.o"
   )

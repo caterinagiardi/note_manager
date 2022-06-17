@@ -5,7 +5,7 @@
 TEST(Note, DefaultConstructor) {
     Note n;
     ASSERT_EQ("Untitled", n.getTitle());
-    ASSERT_EQ("None", n.getContent());
+    ASSERT_EQ(" ", n.getContent());
     ASSERT_TRUE(n.isEditable());
 }
 
@@ -27,7 +27,7 @@ TEST(Note, Editability){
     n.setTitle("nuovo titolo");
     n.setContent("nuovo contenuto");
     ASSERT_EQ("Untitled", n.getTitle());
-    ASSERT_EQ("None", n.getContent());
+    ASSERT_EQ(" ", n.getContent());
     n.setEditable(true);
     n.setTitle("nuovo titolo");
     n.setContent("nuovo contenuto");

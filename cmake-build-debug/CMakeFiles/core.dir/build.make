@@ -105,11 +105,25 @@ CMakeFiles/core.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Menu.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/note_manager/Menu.cpp -o CMakeFiles/core.dir/Menu.cpp.s
 
+CMakeFiles/core.dir/CollectionViewer.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/CollectionViewer.cpp.o: ../CollectionViewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/CollectionViewer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/CollectionViewer.cpp.o -c /Users/caterinagiardi/note_manager/CollectionViewer.cpp
+
+CMakeFiles/core.dir/CollectionViewer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/CollectionViewer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/caterinagiardi/note_manager/CollectionViewer.cpp > CMakeFiles/core.dir/CollectionViewer.cpp.i
+
+CMakeFiles/core.dir/CollectionViewer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/CollectionViewer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/caterinagiardi/note_manager/CollectionViewer.cpp -o CMakeFiles/core.dir/CollectionViewer.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/Collection.cpp.o" \
 "CMakeFiles/core.dir/Note.cpp.o" \
-"CMakeFiles/core.dir/Menu.cpp.o"
+"CMakeFiles/core.dir/Menu.cpp.o" \
+"CMakeFiles/core.dir/CollectionViewer.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -117,9 +131,10 @@ core_EXTERNAL_OBJECTS =
 libcore.a: CMakeFiles/core.dir/Collection.cpp.o
 libcore.a: CMakeFiles/core.dir/Note.cpp.o
 libcore.a: CMakeFiles/core.dir/Menu.cpp.o
+libcore.a: CMakeFiles/core.dir/CollectionViewer.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/caterinagiardi/note_manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

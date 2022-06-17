@@ -6,8 +6,15 @@ CMakeFiles/core.dir/Collection.cpp.o
  /Users/caterinagiardi/note_manager/Collection.h
  /Users/caterinagiardi/note_manager/Note.h
  /Users/caterinagiardi/note_manager/Observer.h
+CMakeFiles/core.dir/CollectionViewer.cpp.o
+ /Users/caterinagiardi/note_manager/Collection.h
+ /Users/caterinagiardi/note_manager/CollectionViewer.cpp
+ /Users/caterinagiardi/note_manager/CollectionViewer.h
+ /Users/caterinagiardi/note_manager/Note.h
+ /Users/caterinagiardi/note_manager/Observer.h
 CMakeFiles/core.dir/Menu.cpp.o
  /Users/caterinagiardi/note_manager/Collection.h
+ /Users/caterinagiardi/note_manager/CollectionViewer.h
  /Users/caterinagiardi/note_manager/Menu.cpp
  /Users/caterinagiardi/note_manager/Menu.h
  /Users/caterinagiardi/note_manager/Note.h

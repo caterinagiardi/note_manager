@@ -205,6 +205,30 @@ Collection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Collection.cpp.s
 .PHONY : Collection.cpp.s
 
+CollectionViewer.o: CollectionViewer.cpp.o
+.PHONY : CollectionViewer.o
+
+# target to build an object file
+CollectionViewer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/CollectionViewer.cpp.o
+.PHONY : CollectionViewer.cpp.o
+
+CollectionViewer.i: CollectionViewer.cpp.i
+.PHONY : CollectionViewer.i
+
+# target to preprocess a source file
+CollectionViewer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/CollectionViewer.cpp.i
+.PHONY : CollectionViewer.cpp.i
+
+CollectionViewer.s: CollectionViewer.cpp.s
+.PHONY : CollectionViewer.s
+
+# target to generate assembly for a file
+CollectionViewer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/CollectionViewer.cpp.s
+.PHONY : CollectionViewer.cpp.s
+
 Menu.o: Menu.cpp.o
 .PHONY : Menu.o
 
@@ -293,6 +317,9 @@ help:
 	@echo "... Collection.o"
 	@echo "... Collection.i"
 	@echo "... Collection.s"
+	@echo "... CollectionViewer.o"
+	@echo "... CollectionViewer.i"
+	@echo "... CollectionViewer.s"
 	@echo "... Menu.o"
 	@echo "... Menu.i"
 	@echo "... Menu.s"

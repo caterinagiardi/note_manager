@@ -24,10 +24,10 @@ test/CMakeFiles/runNoteManagerTests.dir/CollectionTest.cpp.o
  ../test/lib/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h
- /Users/caterinagiardi/Downloads/note_manager/Collection.h
- /Users/caterinagiardi/Downloads/note_manager/Note.h
- /Users/caterinagiardi/Downloads/note_manager/Observer.h
- /Users/caterinagiardi/Downloads/note_manager/test/CollectionTest.cpp
+ /Users/caterinagiardi/note_manager/Collection.h
+ /Users/caterinagiardi/note_manager/Note.h
+ /Users/caterinagiardi/note_manager/Observer.h
+ /Users/caterinagiardi/note_manager/test/CollectionTest.cpp
 test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.o
  ../test/lib/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/include/gtest/gtest-message.h
@@ -51,11 +51,12 @@ test/CMakeFiles/runNoteManagerTests.dir/MenuTest.cpp.o
  ../test/lib/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h
- /Users/caterinagiardi/Downloads/note_manager/Collection.h
- /Users/caterinagiardi/Downloads/note_manager/Menu.h
- /Users/caterinagiardi/Downloads/note_manager/Note.h
- /Users/caterinagiardi/Downloads/note_manager/Observer.h
- /Users/caterinagiardi/Downloads/note_manager/test/MenuTest.cpp
+ /Users/caterinagiardi/note_manager/Collection.h
+ /Users/caterinagiardi/note_manager/CollectionViewer.h
+ /Users/caterinagiardi/note_manager/Menu.h
+ /Users/caterinagiardi/note_manager/Note.h
+ /Users/caterinagiardi/note_manager/Observer.h
+ /Users/caterinagiardi/note_manager/test/MenuTest.cpp
 test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.o
  ../test/lib/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/include/gtest/gtest-message.h
@@ -79,11 +80,12 @@ test/CMakeFiles/runNoteManagerTests.dir/NoteManagerFixture.cpp.o
  ../test/lib/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h
- /Users/caterinagiardi/Downloads/note_manager/Collection.h
- /Users/caterinagiardi/Downloads/note_manager/Menu.h
- /Users/caterinagiardi/Downloads/note_manager/Note.h
- /Users/caterinagiardi/Downloads/note_manager/Observer.h
- /Users/caterinagiardi/Downloads/note_manager/test/NoteManagerFixture.cpp
+ /Users/caterinagiardi/note_manager/Collection.h
+ /Users/caterinagiardi/note_manager/CollectionViewer.h
+ /Users/caterinagiardi/note_manager/Menu.h
+ /Users/caterinagiardi/note_manager/Note.h
+ /Users/caterinagiardi/note_manager/Observer.h
+ /Users/caterinagiardi/note_manager/test/NoteManagerFixture.cpp
 test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.o
  ../test/lib/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/include/gtest/gtest-message.h
@@ -107,10 +109,10 @@ test/CMakeFiles/runNoteManagerTests.dir/NoteTest.cpp.o
  ../test/lib/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h
- /Users/caterinagiardi/Downloads/note_manager/Collection.h
- /Users/caterinagiardi/Downloads/note_manager/Note.h
- /Users/caterinagiardi/Downloads/note_manager/Observer.h
- /Users/caterinagiardi/Downloads/note_manager/test/NoteTest.cpp
+ /Users/caterinagiardi/note_manager/Collection.h
+ /Users/caterinagiardi/note_manager/Note.h
+ /Users/caterinagiardi/note_manager/Observer.h
+ /Users/caterinagiardi/note_manager/test/NoteTest.cpp
 test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.o
  ../test/lib/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/include/gtest/gtest-message.h
@@ -134,4 +136,4 @@ test/CMakeFiles/runNoteManagerTests.dir/runAllTests.cpp.o
  ../test/lib/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h
- /Users/caterinagiardi/Downloads/note_manager/test/runAllTests.cpp
+ /Users/caterinagiardi/note_manager/test/runAllTests.cpp

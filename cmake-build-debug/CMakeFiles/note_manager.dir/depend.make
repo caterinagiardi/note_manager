@@ -3,6 +3,7 @@
 
 CMakeFiles/note_manager.dir/main.cpp.o: \
  ../Collection.h \
+ ../CollectionViewer.h \
  ../Menu.h \
  ../Note.h \
  ../Observer.h \

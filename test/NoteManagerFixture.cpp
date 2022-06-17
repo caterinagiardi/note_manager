@@ -15,7 +15,6 @@ protected:
         n2->setTitle("titolo");
         n2->setEditable(true);
         c->setTitle("titolo");
-        c->subscribe(m);
     }
 
     void init(){
@@ -23,11 +22,10 @@ protected:
         m->addCollection(c);
     }
 
-
     Menu* m = new Menu();
     Collection* c = new Collection();
-    Note* n1 = new Note();
-    Note* n2 = new Note();
+    std::shared_ptr<Note> n1 = std::make_shared<Note>();
+    std::shared_ptr<Note> n2 = std::make_shared<Note>();
 };
 
 
@@ -51,14 +49,12 @@ TEST_F(NoteManagerSuite, AddingandRemoving) {
 }
 
 TEST_F(NoteManagerSuite, Observer){
-    int s = 0;
     init();
     m->addNotetoCollection(n2, c->getTitle());
-    ASSERT_EQ(m->logbook.size()-1, m->getNumofCollections());
-    for( auto i = m->logbook.begin(); i != m->logbook.end(); i++)
-        if(i->collectiontitle != "Preferiti")
-            s = s + i->numofnotes;
-    ASSERT_EQ(m->getNumofNotes(), s);
+    // controllo che il numero di collezioni sia il solito.
+    ASSERT_EQ(m->cv.getNumOfObservedcollection(), m->getNumofCollections());
+    // controllo che il numero di note nella collezione sia il solito.
+    ASSERT_EQ(c->getSize(), m->cv.getNumOfNotes(c->getTitle()));
 }
 
 TEST_F(NoteManagerSuite, Favorites){
@@ -67,6 +63,16 @@ TEST_F(NoteManagerSuite, Favorites){
     ASSERT_EQ(m->getFavNumofNotes(), 1);
     m->removeNotefromFavorites(n1);
     ASSERT_EQ(m->getFavNumofNotes(), 0);
+}
+
+TEST_F(NoteManagerSuite, EditingAndRemovingLockedNote){
+    init();
+    n1->setEditable(false);
+    ASSERT_FALSE(m->editNote(n1,  "prova", " "));
+    ASSERT_FALSE(c->removeNote(n1));
+    n1->setEditable(true);
+    ASSERT_TRUE(m->editNote(n1,  "prova", " "));
+    ASSERT_TRUE(c->removeNote(n1));
 }
 
 

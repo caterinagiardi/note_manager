@@ -14,11 +14,19 @@ Note.h
 Observer.h
 /Users/caterinagiardi/note_manager/Observer.h
 
+/Users/caterinagiardi/note_manager/CollectionViewer.h
+Collection.h
+/Users/caterinagiardi/note_manager/Collection.h
+vector
+-
+
 /Users/caterinagiardi/note_manager/Menu.h
 vector
 -
 Collection.h
 /Users/caterinagiardi/note_manager/Collection.h
+CollectionViewer.h
+/Users/caterinagiardi/note_manager/CollectionViewer.h
 
 /Users/caterinagiardi/note_manager/Note.h
 string
